@@ -170,7 +170,8 @@
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .reservation__title {
@@ -186,7 +187,6 @@
 .reservation__form {
   display: flex;
   flex-direction: column;
-
   max-width: 385px;
   margin-bottom: 120px;
 }
