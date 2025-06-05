@@ -157,14 +157,20 @@
 
             <button type="submit" class="form__button">Reserva una mesa</button>
 
-            <label for="condiciones" class="form__label">
+            <fieldset class="form__fieldset form__fieldset_el_center">
               <input
                 type="checkbox"
-                id="condiciones"
-                required
+                name="checkbox"
+                id="checkbox"
                 class="form__checkbox"
-              />Acepto los términos de uso</label
-            >
+                required
+              />
+              <label
+                class="form__lable form__lable_direction_right"
+                for="checkbox"
+                >Acepto los términos de uso</label
+              >
+            </fieldset>
           </form>
         </section>
       </main>

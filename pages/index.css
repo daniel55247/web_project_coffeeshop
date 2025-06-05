@@ -226,14 +226,25 @@
   height: 60px;
   background-color: #2f80ed;
 }
-.form__button:hoover {
+.form__button:hover {
   opacity: 70%;
 }
 
+.form__fieldset_el_center {
+  display: flex;
+  justify-content: center;
+}
+
+.form__lable_direction_right {
+  display: inline;
+  margin-left: 12px;
+}
+
 .form__checkbox {
-  height: 20px;
+  border-radius: 2px;
   width: 20px;
-  margin-top: 32px;
+  height: 20px;
+  display: inline-block;
   vertical-align: middle;
 }
 
